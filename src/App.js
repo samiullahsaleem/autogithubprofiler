@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { TextField, Button } from '@mui/material'
+import { TextField, Button, Typography } from '@mui/material'
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
@@ -43,7 +43,7 @@ function App() {
           <Grid item xs={6}>
             <Item>
               <h3>💻Code</h3>
-              <div>
+              <div id="codedata"> 
                 {`## Contribution Graph`}
                 <br />
                 {`[![${username}'s GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=${username}&theme=rogue)](https://github.com/${username})`}
@@ -62,9 +62,9 @@ function App() {
           </Grid>
         </Grid >
       </Box >
-      <footer>
-        <h2 style={{ textAlign: "center", backgroundColor: "black", color: "white" }}>Made with 💖 by Sami Ullah Saleem</h2>
-      </footer>
+      <Box mt="80px" bgcolor="#FFF3F4">
+    <Typography variant="h4" sx={{ fontSize: { lg: '28px', xs: '20px' }, color: "white", backgroundColor: "black", pb:"3px"}}textAlign="center" pb="40px">Made with ❤️ by Sami Ullah Saleem</Typography>
+  </Box>
     </div >
   );
 }
