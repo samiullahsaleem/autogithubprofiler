@@ -19,15 +19,18 @@ function App() {
   }
   return (
     <div >
-      <h1 style={{ textAlign: "center" }}>👋 Welcome to Auto Awesome Github Profile Generator</h1>
+      <h1 style={{ textAlign: "center"}}>👋 Welcome to Auto Awesome Github Profile Generator</h1>
       <TextField id="usernamename" name="usernamename" label="Github Username" variant="standard" defaultValue={"samiullahsaleem"} />
       <br />
+      <br />
       <Button variant="contained" onClick={graphC}>Click Here</Button>
+      <br />
+      <br />
       <br />
       <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={2}>
           <Grid item xs={6}>
-            <Item>
+            <Item style={{backgroundColor: "black", color: "white"}}>
               <h3>🫵 Github Profile View</h3>
               <h3>Contribution Graph</h3>
               <img height="180em" width="100%" alt="Browser doesn't support" src={`https://activity-graph.herokuapp.com/graph?username=${username}&theme=xcode`} />
@@ -41,7 +44,7 @@ function App() {
             </Item>
           </Grid>
           <Grid item xs={6}>
-            <Item>
+            <Item style={{backgroundColor: "black", color: "white"}}>
               <h3>💻Code</h3>
               <div id="codedata"> 
                 {`## Contribution Graph`}
