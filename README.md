@@ -1,4 +1,6 @@
 <h1>Welcome to Auto Awesome Github Profile Generator</h1>
+<img src="https://user-images.githubusercontent.com/54318487/176031074-b24a1a14-6cb5-43b4-a4a4-901e6f661c44.png"/>
+<a href="https://autogithubprofile.netlify.app/">Auto Awesome Github Profile Generator</a>
 <h3>How to use it?</h3>
 <h3>Steps</h3>
 <ol>
