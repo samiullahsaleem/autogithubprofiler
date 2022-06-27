@@ -1,9 +1,9 @@
 <h1>Welcome to Auto Awesome Github Profile Generator</h1>
 <h3>How to use it?</h3>
-<h5>Steps</h5>
+<h3>Steps</h3>
 <ol>
   <li>Create a new Repository and give it name same as your <b>username</b></li>
-  <li>Got to this Repository</li>
+  <li>Go to this Repository</li>
   <li>Click on <i>README.md</i> file</li>
   <li>Click on this pen icon! <img src="https://user-images.githubusercontent.com/54318487/176025682-2cd86ab3-1078-40d4-b374-b34d33e8145a.png" /></li>
   <li>Now let's start Editing</li>
